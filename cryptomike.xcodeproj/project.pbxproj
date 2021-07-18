@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D125255B26A451EB00CCFAEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D125255A26A451EB00CCFAEC /* AppDelegate.swift */; };
+		D125255D26A451EB00CCFAEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D125255C26A451EB00CCFAEC /* SceneDelegate.swift */; };
+		D125255F26A451EB00CCFAEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D125255E26A451EB00CCFAEC /* ViewController.swift */; };
+		D125256226A451EB00CCFAEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D125256026A451EB00CCFAEC /* Main.storyboard */; };
+		D125256426A451EF00CCFAEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D125256326A451EF00CCFAEC /* Assets.xcassets */; };
+		D125256726A451EF00CCFAEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D125256526A451EF00CCFAEC /* LaunchScreen.storyboard */; };
+		D125257226A451EF00CCFAEC /* cryptomikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D125257126A451EF00CCFAEC /* cryptomikeTests.swift */; };
+		D125257D26A451EF00CCFAEC /* cryptomikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D125257C26A451EF00CCFAEC /* cryptomikeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D125256E26A451EF00CCFAEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D125254F26A451EB00CCFAEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D125255626A451EB00CCFAEC;
+			remoteInfo = cryptomike;
+		};
+		D125257926A451EF00CCFAEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D125254F26A451EB00CCFAEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D125255626A451EB00CCFAEC;
+			remoteInfo = cryptomike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D125255726A451EB00CCFAEC /* cryptomike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cryptomike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D125255A26A451EB00CCFAEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D125255C26A451EB00CCFAEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D125255E26A451EB00CCFAEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D125256126A451EB00CCFAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D125256326A451EF00CCFAEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D125256626A451EF00CCFAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D125256826A451EF00CCFAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D125256D26A451EF00CCFAEC /* cryptomikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cryptomikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D125257126A451EF00CCFAEC /* cryptomikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cryptomikeTests.swift; sourceTree = "<group>"; };
+		D125257326A451EF00CCFAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D125257826A451EF00CCFAEC /* cryptomikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cryptomikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D125257C26A451EF00CCFAEC /* cryptomikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cryptomikeUITests.swift; sourceTree = "<group>"; };
+		D125257E26A451EF00CCFAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D125255426A451EB00CCFAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D125256A26A451EF00CCFAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D125257526A451EF00CCFAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D125254E26A451EB00CCFAEC = {
+			isa = PBXGroup;
+			children = (
+				D125255926A451EB00CCFAEC /* cryptomike */,
+				D125257026A451EF00CCFAEC /* cryptomikeTests */,
+				D125257B26A451EF00CCFAEC /* cryptomikeUITests */,
+				D125255826A451EB00CCFAEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D125255826A451EB00CCFAEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D125255726A451EB00CCFAEC /* cryptomike.app */,
+				D125256D26A451EF00CCFAEC /* cryptomikeTests.xctest */,
+				D125257826A451EF00CCFAEC /* cryptomikeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D125255926A451EB00CCFAEC /* cryptomike */ = {
+			isa = PBXGroup;
+			children = (
+				D125255A26A451EB00CCFAEC /* AppDelegate.swift */,
+				D125255C26A451EB00CCFAEC /* SceneDelegate.swift */,
+				D125255E26A451EB00CCFAEC /* ViewController.swift */,
+				D125256026A451EB00CCFAEC /* Main.storyboard */,
+				D125256326A451EF00CCFAEC /* Assets.xcassets */,
+				D125256526A451EF00CCFAEC /* LaunchScreen.storyboard */,
+				D125256826A451EF00CCFAEC /* Info.plist */,
+			);
+			path = cryptomike;
+			sourceTree = "<group>";
+		};
+		D125257026A451EF00CCFAEC /* cryptomikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D125257126A451EF00CCFAEC /* cryptomikeTests.swift */,
+				D125257326A451EF00CCFAEC /* Info.plist */,
+			);
+			path = cryptomikeTests;
+			sourceTree = "<group>";
+		};
+		D125257B26A451EF00CCFAEC /* cryptomikeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D125257C26A451EF00CCFAEC /* cryptomikeUITests.swift */,
+				D125257E26A451EF00CCFAEC /* Info.plist */,
+			);
+			path = cryptomikeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D125255626A451EB00CCFAEC /* cryptomike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D125258126A451EF00CCFAEC /* Build configuration list for PBXNativeTarget "cryptomike" */;
+			buildPhases = (
+				D125255326A451EB00CCFAEC /* Sources */,
+				D125255426A451EB00CCFAEC /* Frameworks */,
+				D125255526A451EB00CCFAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cryptomike;
+			productName = cryptomike;
+			productReference = D125255726A451EB00CCFAEC /* cryptomike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D125256C26A451EF00CCFAEC /* cryptomikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D125258426A451EF00CCFAEC /* Build configuration list for PBXNativeTarget "cryptomikeTests" */;
+			buildPhases = (
+				D125256926A451EF00CCFAEC /* Sources */,
+				D125256A26A451EF00CCFAEC /* Frameworks */,
+				D125256B26A451EF00CCFAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D125256F26A451EF00CCFAEC /* PBXTargetDependency */,
+			);
+			name = cryptomikeTests;
+			productName = cryptomikeTests;
+			productReference = D125256D26A451EF00CCFAEC /* cryptomikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D125257726A451EF00CCFAEC /* cryptomikeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D125258726A451EF00CCFAEC /* Build configuration list for PBXNativeTarget "cryptomikeUITests" */;
+			buildPhases = (
+				D125257426A451EF00CCFAEC /* Sources */,
+				D125257526A451EF00CCFAEC /* Frameworks */,
+				D125257626A451EF00CCFAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D125257A26A451EF00CCFAEC /* PBXTargetDependency */,
+			);
+			name = cryptomikeUITests;
+			productName = cryptomikeUITests;
+			productReference = D125257826A451EF00CCFAEC /* cryptomikeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D125254F26A451EB00CCFAEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D125255626A451EB00CCFAEC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D125256C26A451EF00CCFAEC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D125255626A451EB00CCFAEC;
+					};
+					D125257726A451EF00CCFAEC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D125255626A451EB00CCFAEC;
+					};
+				};
+			};
+			buildConfigurationList = D125255226A451EB00CCFAEC /* Build configuration list for PBXProject "cryptomike" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D125254E26A451EB00CCFAEC;
+			productRefGroup = D125255826A451EB00CCFAEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D125255626A451EB00CCFAEC /* cryptomike */,
+				D125256C26A451EF00CCFAEC /* cryptomikeTests */,
+				D125257726A451EF00CCFAEC /* cryptomikeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D125255526A451EB00CCFAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D125256726A451EF00CCFAEC /* LaunchScreen.storyboard in Resources */,
+				D125256426A451EF00CCFAEC /* Assets.xcassets in Resources */,
+				D125256226A451EB00CCFAEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D125256B26A451EF00CCFAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D125257626A451EF00CCFAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D125255326A451EB00CCFAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D125255F26A451EB00CCFAEC /* ViewController.swift in Sources */,
+				D125255B26A451EB00CCFAEC /* AppDelegate.swift in Sources */,
+				D125255D26A451EB00CCFAEC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D125256926A451EF00CCFAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D125257226A451EF00CCFAEC /* cryptomikeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D125257426A451EF00CCFAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D125257D26A451EF00CCFAEC /* cryptomikeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D125256F26A451EF00CCFAEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D125255626A451EB00CCFAEC /* cryptomike */;
+			targetProxy = D125256E26A451EF00CCFAEC /* PBXContainerItemProxy */;
+		};
+		D125257A26A451EF00CCFAEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D125255626A451EB00CCFAEC /* cryptomike */;
+			targetProxy = D125257926A451EF00CCFAEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D125256026A451EB00CCFAEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D125256126A451EB00CCFAEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D125256526A451EF00CCFAEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D125256626A451EF00CCFAEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D125257F26A451EF00CCFAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D125258026A451EF00CCFAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D125258226A451EF00CCFAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G99A9VJCNA;
+				INFOPLIST_FILE = cryptomike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.cryptomike.cryptomike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D125258326A451EF00CCFAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G99A9VJCNA;
+				INFOPLIST_FILE = cryptomike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.cryptomike.cryptomike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D125258526A451EF00CCFAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G99A9VJCNA;
+				INFOPLIST_FILE = cryptomikeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.cryptomike.cryptomikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cryptomike.app/cryptomike";
+			};
+			name = Debug;
+		};
+		D125258626A451EF00CCFAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G99A9VJCNA;
+				INFOPLIST_FILE = cryptomikeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.cryptomike.cryptomikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cryptomike.app/cryptomike";
+			};
+			name = Release;
+		};
+		D125258826A451EF00CCFAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G99A9VJCNA;
+				INFOPLIST_FILE = cryptomikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.cryptomike.cryptomikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cryptomike;
+			};
+			name = Debug;
+		};
+		D125258926A451EF00CCFAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G99A9VJCNA;
+				INFOPLIST_FILE = cryptomikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.cryptomike.cryptomikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cryptomike;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D125255226A451EB00CCFAEC /* Build configuration list for PBXProject "cryptomike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D125257F26A451EF00CCFAEC /* Debug */,
+				D125258026A451EF00CCFAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D125258126A451EF00CCFAEC /* Build configuration list for PBXNativeTarget "cryptomike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D125258226A451EF00CCFAEC /* Debug */,
+				D125258326A451EF00CCFAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D125258426A451EF00CCFAEC /* Build configuration list for PBXNativeTarget "cryptomikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D125258526A451EF00CCFAEC /* Debug */,
+				D125258626A451EF00CCFAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D125258726A451EF00CCFAEC /* Build configuration list for PBXNativeTarget "cryptomikeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D125258826A451EF00CCFAEC /* Debug */,
+				D125258926A451EF00CCFAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D125254F26A451EB00CCFAEC /* Project object */;
+}
